@@ -1,13 +1,25 @@
-let imagens = document.querySelector(".imgOng");
+let modal = document.querySelector(".modal");
+ 
 
-function ampliar (imagens){
-    console.log("Ampliou");
-    imagens.style.transform = "scale(4,4)";
+function fechar(){
+    onclick = modal.style.display='none';
     
+    }
+function clicar(){
+onclick = modal.style.display='block';
+
 }
 
-function encolher (imagens){
-    console.log("Encolheu");
-    imagens.style.transform = "scale(1,1)";
+let modal2 = document.querySelector(".modal2");
+ 
+
+function sumir(){
+    onclick = modal2.style.display='none';
     
+    }
+function abrir(){
+onclick = modal2.style.display='block';
+
 }
+
+

@@ -1,5 +1,10 @@
-let trabalhos = document.querySelector (".trabalhos")
+let nav = document.querySelector("nav");
 
-function abrir(trabalhos){
-onClick='javascript:location.href="trabalhos.html"'
+if(window.scroll != 0){
+    nav.style.opacity(0)
 }
+
+
+
+
+

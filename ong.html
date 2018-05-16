@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="cadong.css">
+    <link rel="stylesheet" href="ong.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <title>COLMEIA</title>
 </head>
@@ -28,25 +28,37 @@
     <section>
         <div id="vazia"></div>
         <div id="tudo">
-        <h2>CADASTRO</h2>
-        <div>
-            <input class="dados" type="text" name="NomeEntidade" placeholder="Nome da Entidade" required/>
-            <input class="dados" type="text" name="cnpj" placeholder="CNPJ" required/>
-            <input class="dados" type="text" name="Contato" placeholder="Nome para Contato" required/>
-            <input class="dados" type="text" name="email" placeholder="E-mail" required/>
-            <input class="dados" type="text" name="telefone" placeholder="Telefone" required/>
-            <input class="dados" type="password" name="senha" placeholder="Senha" required/>
-            <input class="dados" type="password" name="repeteSenha" placeholder="Repete Senha" required/>
-        </div>
-        <div id="termo">
-            <input type="checkbox"/>
-            <p>Concordo com os Termos de Usuário</p>
-        </div>
-        <button>Cadastrar</button>
-    </div>
-    </section>
-
-    <footer>
+            <h2>CONTE-NOS SOBRE A ENTIDADE E SOBRE O PROJETO QUE ESTÁ BUSCANDO</h2>
+            <div id="intro">Para que nossos colaboradores entendam melhor e se identifiquem com o trabalho que irão
+                realizar, precisamos de algumas informações.
+            </div>
+            <div id="formulario">
+                <div class="caixa">
+                    <p>Com qual objetivo a ONG/Projeto Social foi criada? A que público atinge(idade, gênero,etc)?
+                        <input type="text" name="objetivo" placeholder="Esse espaço é como um 'Sobre nós' da sua organização." required/>
+                    </p>
+                    <p>Que tipo de projeto está buscando?
+                        <input type="text" name="projeto" placeholder="Ex: Identidade visual, logo, site, etc." required/>
+                    </p>
+                </div>
+                <div class="caixa">
+                    <p>Você já tem alguma ideia ou protótipo do que precisa?
+                        <input type="text" name="prototipo" placeholder="Ex: Cores, tamanhos, fontes, etc" required/>
+                    </p>
+                    <p>Se houver alguma outra informação que queira passar sobre o projeto, fique a vontade.
+                        <input type="text" name="maisinfo" placeholder="Informações adicionais"/></p>
+                    </div>
+                    <div class="caixa">
+                    <p  id="prazo">Qual o deadline para o projeto?
+                        <input type="text" name="deadline" placeholder="" required/></p>
+                        <button>Enviar</button>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <footer>
             <div id="sos">
                 <img id="logofooter" src="img/logobco.png" alt="Logo"/>          
                 <div id="info">
@@ -85,6 +97,6 @@
                 </div>
                 <p id="copy">©Copyright. All rights reserved.</p>
             </footer>
-    
-</body>
-</html>
+            
+        </body>
+        </html>

@@ -13,10 +13,9 @@
 <body>
     <header>
         <nav>
-            <div id="logo"><img src="img/logo.svg" alt=""></div>
-                   <ul>
+            <div id="logo"><img src="img/logobco.png" alt=""></div>
+            <ul>
                 <a class="cor" href="home.html"><li>HOME</li></a>
-                <a class="cor" href="home.html#sobre"><li>SOBRE NÓS</li></a>
                 <a class="cor" href="trabalhos.html"><li>TRABALHOS</li></a>
                 <a class="cor" href="contato.html"><li>CONTATO</li></a>
                 <li class="cor">|</li>
@@ -27,30 +26,123 @@
     
     
     <section>
+        <div id="vazia"></div>
+        <div id="tudo"></div>
         <h2>TRABALHOS</h2>
         <div id="trabs">
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
-            <div onmouseover="ampliar(this)" onmouseout="encolher(this)" class="imgOng"></div>
+            <div>
+                <img class="imgOng" src="img/hexagono1.png" alt="hexagono">
+                <button onclick="clicar(this)" id="hex1">ENTIDADE</button>
+            </div>
+            <div>
+                <img  class="imgOng" src="img/hexagono2.png" alt="hexagono">
+                <button>ENTIDADE</button>
+            </div>
+            <div>
+                <img  class="imgOng" src="img/hexagono3.png" alt="hexagono">
+                <button>ENTIDADE</button>
+            </div>
+            <div>
+                <img  class="imgOng" src="img/hexagono4.png" alt="hexagono">
+                <button>ENTIDADE</button>
+            </div>
+            <div>
+                <img  class="imgOng" src="img/hexagono5.png" alt="hexagono">
+                <button>ENTIDADE</button>
+            </div>
+            <div>
+                <img  class="imgOng" src="img/hexagono6.png" alt="hexagono">
+                <button>ENTIDADE</button>        
+            </div>   
+            
         </div>
         
+        <div class="modal">
+            <div id="content">
+                <h2>NOME DA ENTIDADE</h2>
+                <button onclick="fechar(this)" class="fechar">X</button>
+                <p class="topics">
+                    Sobre a entidade:
+                </p>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    "
+                </p>
+                <p class="topics">
+                    Projeto a ser desenvolvido:
+                </p>
+                <p>
+                    Identidade Visual
+                </p>
+                <p class="topics">
+                    Características do projeto:
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+                <div id="vai">
+                <p class="topics">Prazo após a entidade te escolher:</p>
+                <p>1 mês</p>
+                <button onclick="abrir(this)" class="quero">Quero fazer esse projeto!</button>
+            </div>
+            </div>
+
+            <div class="modal2">
+                    <div id="content2">
+                        <h3>FEITO!</h3>
+                        <button onclick="sumir(this)" class="fechar2">X</button>
+                        <p>
+                            A entidade tem até 3 dias úteis para escolher.
+                        </p>    
+                        <p>Você receberá um alerta informando se foi escolhido.</p>  
+                        <p class="tks">Obrigado!!</p>
+                    </div>
+                </div>
+
+        </div>        
     </section>
     <footer>
-        <a href="">
-            <img src="img/facebook.svg" alt="Facebook">
-        </a>
-        <a href="">
-            <img src="img/instagram.svg" alt="Instagram">
-        </a>
-    </footer>
-    
-</body>
-<script src="trabalhos.js"></script>
-</html>
+        <div id="sos">
+            <img id="logofooter" src="img/logobco.png" alt="Logo"/>          
+            <div id="info">
+                <p class="nguento"> <img src="img/pin.png" alt="Localização"/> Avenida Paulista, 1374 Bela Vista
+                    São Paulo - SP 01310-100</p>                    
+                    <p class="nguento"> <img src="img/phone.png" alt="Telefone"/> +55 11 33334444</p>
+                    <p class="nguento"> <img src="img/email.png" alt="Email"/> colmeia@provedor.com</p>
+                </div>
+                <div class="about">
+                    <h4>Sobre nós</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>           
+                </div>
+                <div class="imgfooter">
+                    <a href="">
+                        <img src="img/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="">
+                        <img src="img/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="">
+                        <img src="img/twitter.png" alt="Twitter">
+                    </a>
+                    <a href="">
+                        <img src="img/github.png" alt="Github">
+                    </a>
+                    <a href="">
+                        <img src="img/google.png" alt="Google+">
+                    </a>
+                    <a href="">
+                        <img src="img/behance.png" alt="Behance">
+                    </a>
+                </div>
+            </div>
+            <p id="copy">©Copyright. All rights reserved.</p>
+        </footer>
+        
+    </body>
+    <script src="trabalhos.js"></script>
+    </html>

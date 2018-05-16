@@ -14,13 +14,15 @@ nav {
     position: fixed;
     width: 100%;
     font-weight: 900;
+    
 }
 
 
 #logo img {
+    padding-top: 12px;
     padding-left: 70px;
-    width: 120px;
-    height: 50px;
+    width: 130px;
+    height: 25px;
 }
 
 ul {    
@@ -52,38 +54,40 @@ ul a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 80px;
 }
 
 #img1 {
     width: 500px;
-    height: 400px;
+    height: 500px;
     padding-left: 80px;
+    padding-top: 20px;
 }
+
+#hometxt{
+    padding-left: 40px;
+}
+
 h1{
-    font-size: 40pt;
-    padding-left: 80px;
+    font-size: 55pt;
+    padding-left: 50px;
 }
 
 
 
 #home p{
-    width: 450px;
+    width: 500px;
     padding-right: 100px;
-    font-size: 20pt;
+    font-size: 17pt;
 }
 
-#icone{
-    width: 80px;
-    height: 80px;
-    padding-left: 160px;
-}
+
 
 #sobre {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 73px;
+    padding-top: 60px;
 }
 
 h2{
@@ -98,20 +102,91 @@ h2{
 
 #sobre img {
     width: 500px;
-    height: 400px;
+    height: 500px;
     padding-right: 150px;
+    padding-top: 30px;
 }
 
 footer{
-    padding-top: 15px;
-    padding-right: 950px;
-    padding-left: 170px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    padding-top: 70px;
+    background-color: #333333;
+    color: white;
+    height: 500px;
+    margin-top: 100px;
 }
 
-footer img {
-    width: 50px;
-    height: 50px;
+#logofooter{
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 170px;
+    height: 30px;
+}
+
+#sos{
+    display: flex;
+}
+
+#info{
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 90px;
+    font-size: 10pt;
+    width: 210px;
+    height: 200px;
+    
+    
+}
+
+#info img{
+    width:20px;
+    height: 20px;;
+    background-color: #4b4a4a;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.nguento{
+   display: flex;
+align-items: center;
+}
+
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 85px;
+    padding-left: 90px;
+    padding-right: 100px;
+    font-size: 10pt;
+    width: 250px;
+    height: 150px;
+}
+
+.about h3{
+ margin: 0;
+}
+
+.imgfooter{
+    padding-top: 110px;
+    padding-left: 15px;
+    padding-right: 80px;
+    width: 270px;
+}
+
+.imgfooter img{
+    width: 35px;
+    height: 35px;
+    background-color: #4b4a4a;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#copy{
+    padding-top: 160px;
+    padding-left: 500px;
+    padding-right: 400px;
 }

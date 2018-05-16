@@ -14,13 +14,15 @@ nav {
     position: fixed;
     width: 100%;
     font-weight: 900;
+    position: fixed;
 }
 
 
 #logo img {
+    padding-top: 12px;
     padding-left: 70px;
-    width: 120px;
-    height: 50px;
+    width: 130px;
+    height: 25px;
 }
 
 ul {    
@@ -47,40 +49,234 @@ ul a:hover{
     border-radius: 10px;
 }
 
+
+#vazia{
+    margin: 0px;
+    height: 70px;
+    background-color: #fad61a;
+}
+
 h2 {
     margin: 0;
-    padding-top: 100px;
-    font-size: 20pt bold;
-    padding-left: 150px;
+    padding-top: 20px;
+    font-size: 18pt bold;
+    padding-left: 180px;
 }
 
 #trabs {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 130px;
+    padding-left: 180px;
     padding-right: 130px;
+}
+
+#trabs div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.imgOng{
+    width:305px;
+    height: 250px;
+}
+
+#trabs button{
+    border: none;
+    background-color: #fad61a;
+    padding-left: 120px;
+    cursor: pointer;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    background-color: #f3Cd3e;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#content{
+    width: 1000px;
+    height:400px;
+    background-color:rgb(255, 225, 91);
+    border: #333333 1px;
+    border-radius: 10px;
+    margin: 10% auto;
+    padding: 20px 50px;
+}
+
+.fechar{
+    position: absolute;
+    top: 145px;
+    right: 120px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:rgb(255, 225, 91);;
+    border: none;
+      
+}
+
+.topics{
+   font-weight: bold;
+}
+
+#vai{
+    display: flex;
+}
+
+#vai p {
+    padding-right: 5px;
+}
+
+.quero{
+    background-color: #333333;
+    color: #fad61a;
+    border: none;
+    width: 235px;
+    height:30px;
+    padding: 5px;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 350px;
+}
+
+
+.modal2{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    overflow: auto;
+    background-color: #f3Cd3e;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    padding-left: 140px;
+    font-size: 28pt;
+}
+
+#content2{
+    padding: 30px;
+    width: 400px;
+    height:260px;
+    background-color: rgb(255, 225, 91);
+    border: #333333 1px;
+    border-radius: 10px;
+    margin: 10% auto;
+
+}
+
+#content2{
+    font-size: 13pt;
+}
+
+.fechar2{
+    position: absolute;
+    top: 150px;
+    right: 430px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:rgb(255, 225, 91);
+    border: none;
+      
+}
+
+.tks{
+    padding-left: 150px;
+}
+
+footer{
+    padding-top: 70px;
+    background-color: #333333;
+    color: white;
+    height: 500px;
+    margin-top: 100px;
+}
+
+#logofooter{
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 170px;
+    height: 30px;
+}
+
+#sos{
+    display: flex;
+}
+
+#info{
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 90px;
+    font-size: 10pt;
+    width: 210px;
+    height: 200px;
+    
     
 }
 
-#trabs div {
-    border: 2px solid black;
-    width: 150px;
-    height: 150px;
-    box-sizing: border-box;
-    margin: 20px;
+#info img{
+    width:20px;
+    height: 20px;;
+    background-color: #4b4a4a;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.nguento{
+   display: flex;
+align-items: center;
 }
 
 
-footer{
-    padding-top: 15px;
-    padding-right: 560px;
-    padding-left: 560px;
+.about{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 85px;
+    padding-left: 90px;
+    padding-right: 100px;
+    font-size: 10pt;
+    width: 250px;
+    height: 150px;
 }
 
-footer img {
-    width: 50px;
-    height: 50px;
+.about h4{
+ margin: 0;
+}
+
+.imgfooter{
+    padding-top: 110px;
+    padding-left: 15px;
+    padding-right: 80px;
+    width: 270px;
+}
+
+.imgfooter img{
+    width: 35px;
+    height: 35px;
+    background-color: #4b4a4a;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#copy{
+    padding-top: 160px;
+    padding-left: 500px;
+    padding-right: 400px;
 }
