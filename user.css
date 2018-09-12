@@ -56,7 +56,7 @@ ul a:hover{
 }
 
 #tudo {
-    padding-left: 85px;
+    padding-left: 80px;
     width: 1000px;
     height: 520px;
     display: flex;
@@ -94,7 +94,6 @@ h2 {
     padding-top: 10px;
     flex-wrap: wrap;
     display: flex;
-    padding-left: 50px;
     padding-right: 90px;
     font-size: 10pt;
     width: 210px;
@@ -109,11 +108,22 @@ h2 {
     
 }
 
+.curso{
+    padding: 5px;
+    width: 250px;
+    height: 20px;
+    margin: 0px 10px;
+    text-align: center;
+    color: #000000 bold;
+    border-radius: 10px;
+    border: #333333;
+}
+
 .instituição{
     padding: 5px;
-    width: 400px;
+    width: 350px;
     height: 20px;
-    margin: 0px 15px;
+    margin: 0px 10px;
     text-align: center;
     color: #000000 bold;
     border-radius: 10px;
@@ -122,9 +132,9 @@ h2 {
 
 .data{
     padding: 5px;
-    width: 150px;
+    width: 125px;
     height: 20px;
-    margin: 0px 15px;
+    margin: 0px 10px;
     text-align: center;
     color: #000000 bold;
     border-radius: 10px;

@@ -50,10 +50,22 @@
                         <input type="text" name="maisinfo" placeholder="Informações adicionais"/></p>
                     </div>
                     <div class="caixa">
-                    <p  id="prazo">Qual o deadline para o projeto?
-                        <input type="text" name="deadline" placeholder="" required/></p>
-                        <button>Enviar</button>
+                        <p  id="prazo">Qual o deadline para o projeto?
+                            <input type="text" name="deadline" placeholder="" required/></p>
+                            <button onclick="clicar(this)" >Enviar</button>
+                        </div>
                     </div>
+                </div>
+                
+                <div class="modal">
+                    <div id="content">
+                        <h3>FEITO!</h3>
+                        <button onclick="fechar(this)" class="fechar">X</button>
+                        <p id="pcheck">
+                            Iremos verificar suas informações.
+                        </p>    
+                        <p>Você receberá um alerta quando seu projeto for publicado.</p>  
+                        <p class="tks">Obrigado!!</p>
                     </div>
                 </div>
                 
@@ -69,7 +81,7 @@
                         <p class="nguento"> <img src="img/email.png" alt="Email"/> colmeia@provedor.com</p>
                     </div>
                     <div class="about">
-                        <h3>Sobre nós</h3>
+                        <h4>Sobre nós</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -100,4 +112,5 @@
             </footer>
             
         </body>
+        <script src="ong.js"></script>
         </html>
